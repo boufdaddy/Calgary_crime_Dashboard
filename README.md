@@ -40,3 +40,21 @@ Most Affected Community =
 CALCULATE(MAX('Community_Crime_Statistics'[Community]), 
     TOPN(1, VALUES('Community_Crime_Statistics'[Community]), [Total Crimes], DESC)
 )
+```
+🗺️ Mapping Component
+We used ArcGIS Maps for Power BI to:
+
+Visualize community hotspots
+
+Display crime density
+
+Overlay Calgary community boundaries for better context
+
+📁 Data Source
+Dataset: [Community Crime Statistics](https://data.calgary.ca/Health-and-Safety/Community-Crime-Statistics/78gh-n26t/about_data)
+
+Format: CSV
+
+Fields: Community, Category,Crime count, Year, Month
+
+
